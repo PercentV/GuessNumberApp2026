@@ -1,0 +1,11 @@
+.textHidden {
+    display: none;
+}
+
+.textShow {
+    display: inline-block;
+}
+
+.disabledInput:disabled {
+    background-color: darkgray;
+}
