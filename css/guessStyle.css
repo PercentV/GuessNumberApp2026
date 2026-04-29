@@ -5,7 +5,3 @@
 .textShow {
     display: inline-block;
 }
-
-.disabledInput:disabled {
-    background-color: darkgray;
-}
