@@ -5,3 +5,16 @@
 .textShow {
     display: inline-block;
 }
+
+.text-perfect {
+    color: green;
+}
+
+.text-normal {
+    color: black;
+}
+
+.attempt-message {
+    right: 250px;
+    top: 10px;
+}
