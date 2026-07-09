@@ -22,3 +22,21 @@
     right: 250px;
     top: 10px;
 }
+
+@media screen and (max-width: 400px) {
+    .guess-header {
+        display: block;
+    }
+
+    .attempt-message {
+        right: 10px;
+    }
+
+    .btn-list {
+        flex-direction: column;
+    }
+
+    #btn-guess, #btn-again, #input-guess {
+        min-width: 100%;
+    }
+}
