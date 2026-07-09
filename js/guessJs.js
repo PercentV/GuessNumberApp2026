@@ -48,6 +48,8 @@ let GuessMatching = function () {
         if (attmpt) {
             Attempts(remainingAttempt)
             TextMessage(message);
+            if (remainingAttempt < 3)
+                attempt.classList.add("text-attemp");
         }
         else
         {
@@ -69,6 +71,7 @@ let Again = function () {
     textMessage.classList.add("text-normal");
     textMessage.classList.remove("text-perfect");
     attempt.innerText = remainingAttempt = 5;
+    attempt.classList.remove("text-attemp");
     RandNumber();
 }
 
